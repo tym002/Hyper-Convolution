@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 21 23:23:51 2020
 
-@author: tianyu
-"""
 
 import numpy as np 
 import os
@@ -16,13 +12,8 @@ from keras.optimizers import Adam
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler
 import tensorflow as tf
 from keras import backend as K
-from CoordConv import AddCoords
-from FixCoord import FixCoord
-from CondCoord import *
 from keras.losses import binary_crossentropy
-from split import com_split
 from non_local import non_local_block
-from PosNet import PosNet
 from kernal import hyperNet
 from BiasNet import BiasNet
 img_rows = 512

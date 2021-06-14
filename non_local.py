@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  7 14:02:25 2020
 
-@author: tianyu
-"""
 
 from keras.layers import Activation, Reshape, Lambda, dot, add
 from keras.layers import Conv1D, Conv2D, Conv3D

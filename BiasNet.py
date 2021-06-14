@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 12 21:53:17 2020
 
-@author: tianyu
-"""
 
 from keras import backend as K
 from keras.layers import Layer

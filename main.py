@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 21 23:25:48 2020
 
-@author: tianyu
-"""
 
 from unet_vanilla import *
 import os
