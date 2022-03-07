@@ -14,8 +14,14 @@ requirements:
 `python 3.6.13`
 
 
-To initiate training, run:
+To initiate training or testing, run:
 `python main.py`
+In line 14, `mode = 't'` for training
+
+`kernal.py` contains the input to the hyper-network, which is a two-channels coordinates grids (x and y)
+
+`unet_vanilla.py` contains all the networks including the baseline UNet, non-local UNet and our method  
+
 
 If you find our code useful, please cite our work: 
 ```
