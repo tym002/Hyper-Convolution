@@ -20,7 +20,7 @@ To initiate training or testing, run:
 
 In line 14, make `mode = 't'` for training, anything else for testing
 
-`kernal.py` contains the input to the hyper-network, which is a two-channels coordinates grids (x and y)
+`kernal.py` contains the input to the hyper-network, which is a two-channels coordinates grid (x and y)
 
 `unet_vanilla.py` contains all the networks including the baseline UNet, non-local UNet and our method  
 
