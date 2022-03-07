@@ -24,7 +24,7 @@ In line 14, make `mode = 't'` for training, anything else for testing
 
 `unet_vanilla.py` contains all the networks including the baseline UNet, non-local UNet and our method  
 
-# Citation: 
+## Citation: 
 
 If you find our code useful, please cite our work: 
 ```
