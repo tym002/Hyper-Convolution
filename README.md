@@ -16,7 +16,8 @@ requirements:
 
 To initiate training or testing, run:
 `python main.py`
-In line 14, `mode = 't'` for training
+
+In line 14, make `mode = 't'` for training, anything else for testing
 
 `kernal.py` contains the input to the hyper-network, which is a two-channels coordinates grids (x and y)
 
