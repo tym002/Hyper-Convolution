@@ -26,7 +26,7 @@ In line 14, make `mode = 't'` for training, anything else for testing
 
 ## Citation: 
 
-If you find our code useful, please cite our work: 
+If you find our code useful, please cite our work, thank you! 
 ```
 @inproceedings{ma2022hyper,
   title={Hyper-convolution networks for biomedical image segmentation},
