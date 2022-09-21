@@ -154,10 +154,10 @@ def main(arg, config_arg):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="training and testing script")
-    parser.add_argument("--mode", default=None, help="train or test")
+    parser.add_argument("--mode", default="train", help="train or test")
     parser.add_argument("--config_path", default="config.json", help="path to config file")
-    parser.add_argument("--folder_name", default="", help="name of the folder to save results")
-    parser.add_argument("--file_name", default="", help="name of the trained model file")
+    parser.add_argument("--folder_name", default="training", help="name of the folder to save results")
+    parser.add_argument("--file_name", default="training", help="name of the trained model file")
     parser.add_argument("--gpu", default=0, help="which gpu to use")
     parser.add_argument("--b_size", default=8, help="batch size")
 
