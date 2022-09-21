@@ -1,0 +1,21 @@
+{
+  "img_shape_x" : 128,
+  "img_shape_y" : 128,
+  "img_shape_z" : 4,
+  "depth": 4,
+  "dropout": 0.5,
+  "activation": "relu",
+  "start_ch": 32,
+  "residual": false,
+  "batchnorm": true,
+  "attention": false,
+  "non_local": false,
+  "pos": false,
+  "hyper": false,
+  "x_train_path": "/data/x_train.npy",
+  "y_train_path": "/data/y_train.npy",
+  "x_val_path": "/data/x_val.npy",
+  "y_val_path": "/data/y_val.npy",
+  "x_test_path": "/data/x_test.npy",
+  "y_test_path": "/data/y_test.npy"
+}
