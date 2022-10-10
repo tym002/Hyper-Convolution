@@ -18,7 +18,7 @@ The input to the hyper-network are the spatial coordinates of the kernels
 To initiate training or testing, run:
 `python main.py --mode train --config_path config.json`
 
-`--mode = 'train'` for training, `--mode = 'test'` for testing
+`--mode train` for training, `--mode test` for testing
 
 `--config_path` is the path to config json file that contains all model related config
 
