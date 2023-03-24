@@ -1,6 +1,10 @@
 # Hyper-Convolution Networks for Biomedical Image Segmentation
-Code for our WACV 2022 paper: *Hyper-Convolution Networks for Biomedical Image Segmentation* (https://arxiv.org/abs/2105.10559)
+Code for our WACV 2022 paper: 
+
+*Hyper-Convolution Networks for Biomedical Image Segmentation* (https://arxiv.org/abs/2105.10559)
+
 and our journal extension published at Medical Image Analysis 
+
 *Hyper-convolutions via implicit kernels for medical image analysis*
 (https://www.sciencedirect.com/science/article/pii/S1361841523000579)
 
@@ -42,10 +46,12 @@ If you find our code useful, please cite our work, thank you!
 }
 ```
 ```
-@article{ma2022hyper,
-  title={Hyper-Convolutions via Implicit Kernels for Medical Imaging},
+@article{ma2023hyper,
+  title={Hyper-convolutions via implicit kernels for medical image analysis},
   author={Ma, Tianyu and Wang, Alan Q and Dalca, Adrian V and Sabuncu, Mert R},
-  journal={arXiv preprint arXiv:2202.02701},
-  year={2022}
+  journal={Medical Image Analysis},
+  pages={102796},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
